@@ -16,6 +16,7 @@ if(MSVC)
     add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 endif(MSVC)
 
+# Use src as include directory
 include_directories(src)
 
 # Add the library
